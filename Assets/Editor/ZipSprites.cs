@@ -209,7 +209,7 @@ namespace ZipSprites.Editor
             meshFilter.sharedMesh = CreateMesh();
         }
 
-        #region - private class for serialization
+        #region - private class to parse packer info into
 
         [System.Serializable]
         private class PackerInfo
